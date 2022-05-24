@@ -33,9 +33,9 @@ let c = ''
 let interval;
 function preload () {
  
-  loadImage("assets/BackCocoSvg/BackCoco1.svg")
+  loadImage("Assets/BackCocoSvg/BackCoco1.svg")
   for (let i = 1; i < numBackcoco; i++){
-    backcoco[i]= loadImage("assets/BackCocoSvg/BackCoco"+ i + ".svg");
+    backcoco[i]= loadImage("Assets/BackCocoSvg/BackCoco"+ i + ".svg");
   }
 
   
@@ -102,9 +102,9 @@ let interval2;
 
 p.preload = function(){
 
-  p.loadImage("assets/FrontCocoSvg/FrontCoco1.svg")
+  p.loadImage("Assets/FrontCocoSvg/FrontCoco1.svg")
   for (let i = 1; i < numFrontcoco; i++){
-    frontcoco[i]= p.loadImage("assets/FrontCocoSvg/FrontCoco"+ i + ".svg");
+    frontcoco[i]= p.loadImage("Assets/FrontCocoSvg/FrontCoco"+ i + ".svg");
   }
 }
 
