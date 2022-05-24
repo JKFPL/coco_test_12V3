@@ -35,7 +35,7 @@ function preload () {
  
   loadImage("assets/BackCocoSvg/BackCoco1.svg")
   for (let i = 1; i < numBackcoco; i++){
-    backcoco[i]= loadImage("Assets/BackCocoSvg/BackCoco"+ i + ".svg");
+    backcoco[i]= loadImage("assets/BackCocoSvg/BackCoco"+ i + ".svg");
   }
 
   
@@ -104,7 +104,7 @@ p.preload = function(){
 
   p.loadImage("assets/FrontCocoSvg/FrontCoco1.svg")
   for (let i = 1; i < numFrontcoco; i++){
-    frontcoco[i]= p.loadImage("Assets/FrontCocoSvg/FrontCoco"+ i + ".svg");
+    frontcoco[i]= p.loadImage("assets/FrontCocoSvg/FrontCoco"+ i + ".svg");
   }
 }
 
