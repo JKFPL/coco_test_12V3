@@ -45,8 +45,7 @@ function drawImage(i){
   
    background(0,43,16);
  imageMode(CENTER);
-  image(backcoco[i],windowWidth/2, windowHeight/2, 623, 298);
-
+  image(backcoco[i],windowWidth/2, windowHeight/2, 300, 625);
  
 
 }
@@ -113,7 +112,7 @@ p.drawImage2 =function(i){
 
   p.background(0,43,16);
   p.imageMode(CENTER);
-   p.image(frontcoco[i],windowWidth/2, windowHeight/2, 623, 298);
+   p.image(frontcoco[i],windowWidth/2, windowHeight/2, 297.54, 622.124);
 
 }
 
