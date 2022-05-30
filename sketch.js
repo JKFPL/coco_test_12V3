@@ -45,13 +45,13 @@ function drawImage(i){
   
    background(0,43,16);
  imageMode(CENTER);
-  image(backcoco[i],windowWidth/2, windowHeight/2, 300, 625);
+  image(backcoco[i],300/2, 640/2, 300, 635);
  
 
 }
 function setup(){
   
-  c = createCanvas(windowWidth, windowHeight);
+  c = createCanvas(300, 640);
   c.parent("img1");
 
    background(0,43,16);
@@ -112,12 +112,12 @@ p.drawImage2 =function(i){
 
   p.background(0,43,16);
   p.imageMode(CENTER);
-   p.image(frontcoco[i],windowWidth/2, windowHeight/2, 297.54, 622.124);
+   p.image(frontcoco[i],300/2, 645/2, 297.54, 622.124);
 
 }
 
   p.setup = function () {
-    c2 = p.createCanvas(windowWidth, windowHeight);
+    c2 = p.createCanvas(300, 640);
   c2.parent("img2");
 
    p.background(0,43,16);
