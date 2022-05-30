@@ -127,6 +127,13 @@ p.drawImage2 =function(i){
       p.drawImage2(Math.ceil(p.random(numFrontcoco)))
     }, 100);
   })
+
+  btn2.addEventListener('mousedown',() => {
+    interval2 = setInterval(function() {
+      p.drawImage2(Math.ceil(p.random(numFrontcoco)))
+    }, 100);
+  })
+  
   
   btn2.addEventListener('touchend', function() {
       if(interval2) {
@@ -134,6 +141,13 @@ p.drawImage2 =function(i){
         interval2 = null;
         }
   })
+
+  btn2.addEventListener('mouseup', function() {
+    if(interval2) {
+      clearInterval(interval2);
+      interval2 = null;
+      }
+})
   }
   
 }
