@@ -61,6 +61,12 @@ function setup(){
       drawImage(Math.ceil(random(numBackcoco)))
     }, 100);
   })
+
+  btn1.addEventListener('mousedown',() => {
+    interval = setInterval(function() {
+      drawImage(Math.ceil(random(numBackcoco)))
+    }, 100);
+  })
   
   btn1.addEventListener('touchend', function() {
       if(interval) {
@@ -68,6 +74,13 @@ function setup(){
         interval = null;
         }
   })
+
+  btn1.addEventListener('mouseup', function() {
+    if(interval) {
+      clearInterval(interval);
+      interval = null;
+      }
+})
 
 
 }
